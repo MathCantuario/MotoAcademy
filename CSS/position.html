@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h2>Position: Relative</h2>
+
+<div style="width: 150px; border: 1px solid blue;">
+    <div class="relative">
+        banana
+    </div>
+</div>
+    <style>
+        .relative {
+            position: relative;
+            left: 20px;
+        }
+    </style>
+
+<h2>Position:fixed</h2>
+
+<div class="fixed"> Esse elemento é uma div fixed</div>
+<style>
+    .relative {
+        position: relative;
+            left: 20px;
+    }
+
+    .fixed {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin: 20% 20% 20% 20%;
+        border: 3px dashed gray;
+    }
+</style>
+
+<h2>Position: Absolute</h2>
+<div class="relative-absolute"> 
+    <div class="absolute"> Essa é uma div absoluta</div>
+</div>
+<style>
+    .relative-absolute {
+        position: relative;
+        width: 400%;
+        height: 200px;
+        border: 3px solid black;
+    }
+    .absolute {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 200px;
+        border: 3px solid brown;
+    }
+    .relative {
+        position: relative;
+        left: 20px;
+    }
+</style>
+</body>
+</html>
